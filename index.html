@@ -71,7 +71,7 @@
 										<h2 class="major">ABOUT ME</h2>
 										<p>Hello there! I'm a graduate student in Robotics at Northeastern University, with a keen interest in Machine Learning/Deep Learning and Computer Vision. My past projects include creating a 3D object classification system using partial point clouds, implementing Optical flow Estimation for facial motion tracking, and developing a Sensor Fusion system that uses GPS, IMU, and camera for state estimation.
 
-											Prior to my studies, I worked in the oil and gas industry at ExxonMobil, where I gained valuable experience in project management and problem solving. I am excited to pursue a career in robotics and am eager to apply my skills and experience to this exciting and constantly evolving field.
+											Prior to my studies, I worked in the oil and gas industry at ExxonMobil, where I gained valuable experience in project management and problem solving. I am excited to now be pursuing a career in robotics and am eager to apply my skills and experience to this exciting and constantly evolving field.
 											
 											As a motivated and hardworking individual, I am confident in my ability to make a positive contribution to any team. I am open to new challenges and am always looking for opportunities to learn and grow.
 											
@@ -134,6 +134,26 @@
 											</div>
 										</article>
 										<article>
+											<a href="pdf/MNIST_digit_recognition.pdf" target="_blank"  class="image"><img src="images/MNIST_cropped.png" alt="" /></a>
+											<h3 class="major">MNIST Digit Recognition</h3>
+											<p style="text-align: justify;">
+												This project involved the development and training of a neural network for recognizing handwritten digits in the MNIST dataset using PyTorch. The network's performance was evaluated on both test data and custom inputs. Subsequently, the first layers of the network were analyzed to better understand how they process data. The network was further modified and trained to recognize Greek letters. Various aspects of the network were experimented with, and their impact on performance was evaluated. A live digit recognition system based on the network was implemented, and the first layer of the network was replaced with a Gabor filter bank to assess its impact on performance.</p>
+											<div style="display: flex; justify-content: space-between;">	
+												<a href="pdf/MNIST_digit_recognition.pdf" target="_blank"  class="special" style="margin-right: 10px;">Report</a>											
+												<a href="https://github.com/arunmadhusud/Recognition-using-Deep-Networks" target="_blank" class="special">GitHub</a>
+											</div>
+										</article>
+										<article>
+											<a href="pdf/Camera_claibration_and_AR.pdf" target="_blank"  class="image"><img src="images/AR Demo.png" alt="" /></a>
+											<h3 class="major">Camera Calibration and Augmented Reality</h3>
+											<p style="text-align: justify;">
+												The aim of this project is to create a system that combines computer vision methods and augmented reality technology to project virtual objects onto real targets in a live video stream. The system utilizes a properly calibrated camera that tracks the pose of the target object by referencing the corners of the target. The chosen targets for this system are chessboards and Aruco boards. The cameras are calibrated by extracting corners from multiple images of a chessboard. Furthermore, a distinct program has been created to investigate the application of feature detection algorithms, such as Harris corners, in augmented reality.</p>
+											<div style="display: flex; justify-content: space-between;">	
+												<a href="pdf/Camera_claibration_and_AR.pdf" target="_blank"  class="special" style="margin-right: 10px;">Report</a>											
+												<a href="https://github.com/arunmadhusud/Camera_Calibration_and_Augmented_Reality" target="_blank" class="special">GitHub</a>
+											</div>
+										</article>
+										<article>
 											<a href="pdf/State_estimation.pdf" target="_blank"  class="image"><img src="images/NTRIP .png" alt="" /></a>
 											<h3 class="major">Robust Sensor Fusion System for State Estimation</h3>
 											<p style="text-align: justify;">Understanding the state of the robot is a crucial
@@ -152,14 +172,15 @@
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/arunmadhusud/Recognition-using-Deep-Networks" target="_blank"  class="image"><img src="images/MNIST.png" alt="" /></a>
-											<h3 class="major">MNIST Digit Recognition</h3>
-											<p style="text-align: justify;">
-												This project involved the development and training of a neural network for recognizing handwritten digits in the MNIST dataset using PyTorch. The network's performance was evaluated on both test data and custom inputs. Subsequently, the first layers of the network were analyzed to better understand how they process data. The network was further modified and trained to recognize Greek letters. Various aspects of the network were experimented with, and their impact on performance was evaluated. A live digit recognition system based on the network was implemented, and the first layer of the network was replaced with a Gabor filter bank to assess its impact on performance..</p>
-											<div style="display: flex; justify-content: space-between;">												
-												<a href="https://github.com/arunmadhusud/Recognition-using-Deep-Networks" target="_blank" class="special">GitHub</a>
+											<a href="pdf/IMU_Dead_Reckoning.pdf" target="_blank"  class="image"><img src="images/nuance.jpg" alt="" /></a>
+											<h3 class="major">IMU Dead Reckoning</h3>
+											<p style="text-align: justify;">This task involved constructing a simple navigation system using two sensors: a BU-353 GPS and a VectorNav VN-100 IMU. The primary objective was to calibrate and examine the IMU data. To gather data, the NUANCE car was driven around the campus, capturing both GPS and IMU measurements. The magnetometer was calibrated, and the collected data was combined with gyroscope data using a complementary filter. This fusion process resulted in a more precise determination of the sensor's orientation. Additionally, a dynamic bias correction was applied to the accelerometer using GPS velocity. The filtered estimates of yaw and position were then utilized for dead reckoning calculations.</p>
+											<div style="display: flex; justify-content: space-between;">
+												<a href="pdf/IMU_Dead_Reckoning.pdf" target="_blank"  class="special" style="margin-right: 10px;">Report</a>
+												<a href="https://github.com/arunmadhusud/IMU-Dead-Reckoning" target="_blank" class="special">GitHub</a>
 											</div>
 										</article>
+										
 									<!-- </section>
 									<ul class="actions">
 										<li><a href="#" class="button">Browse All</a></li>
